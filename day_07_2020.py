@@ -6,13 +6,6 @@ import re
 def inputdata():
     stream = open('day_07_2020.input')
     data = [ line for line in stream ]
-#    for line in stream:
-#        if len(line) == 1:
-#            data.append(record)
-#            record = [ ]
-#        else:
-#            record.append(line[ : -1 ])
-#    data.append(record)
     stream.close()
     return data
 
