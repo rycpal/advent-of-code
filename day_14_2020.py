@@ -5,7 +5,6 @@ import re
 
 def inputdata():
     stream = open('day_14_2020.input')
-#    stream = open('input')
     data = []
     for line in stream:
         record = re.findall('(mask) = ([01X]+)|(mem)\[(\d+)\] = (\d+)',line)
